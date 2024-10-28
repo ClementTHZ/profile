@@ -1,0 +1,140 @@
+/* All font */
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*  Generic css */
+
+body {
+  /*background: linear-gradient(#2a9d8f,#94d2bd);*/
+  background-image: url("images/cervin.jpg");
+}
+
+h1 {
+  /*color: #023047;*/
+  color: #023047;
+  font-family: "Amaranth", sans-serif;
+  font-size: 35px;
+  margin: auto;
+}
+
+h2 {
+  /*color: #023047;*/
+  color: #023047;
+  font-family: "Amaranth", sans-serif;
+  margin: auto;
+}
+
+p {
+  /*color : #023047;*/
+  color: #023047;
+  font-family: "Amaranth", sans-serif;
+  font-size: 17px;
+}
+
+a {
+  /*color: #023047;*/
+  color: #023047;
+  text-decoration: none;
+  font-family: "Amaranth", sans-serif;
+}
+
+
+/*  class css*/
+.white-card{
+  background: linear-gradient(#ff70a7b6, #f25c54c3);
+  text-align: center;
+  padding: 16px;
+  border-radius: 10px;
+  border: 3px solid #023047;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+
+.icon-sociaux {
+  color: #023047;
+}
+
+.list-follow > li > a > i{
+  font-size: 50px;
+  padding: 10px 10px 10px 10px;
+  border: 5px solid transparent;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.list-follow > li > a > i:hover{
+  border: 5px solid #023047;
+  border-radius: 7px;
+}
+
+.list-follow{
+  list-style: none;
+}
+
+.list-follow > li{
+  display: inline;
+  margin: 20px;
+
+}
+
+.container{
+  /* width: 900px; */
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
+/*  specific ID css*/
+
+#btn-profile{
+  background: #023047a1;
+  padding: 20px 40px 20px 40px;
+  color: #023047;
+  border-radius: 5px;
+  border: 5px solid #023047;
+  font-size: 20px;
+}
+
+#btn-profile:hover{
+  color:#f25c54c0;
+  background: #023047cf;
+}
+
+#img-profil{
+  border-radius: 50%;
+  border: 5px solid #023047;
+  margin-top: 15px;
+}
+
+#third-div{
+  height: 170px;
+}
+
+/* ff70a6*/
+/* f25c54*/
+
+@media (max-width: 1200px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+  }
+}
